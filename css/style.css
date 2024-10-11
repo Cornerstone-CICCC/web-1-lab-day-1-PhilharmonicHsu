@@ -2,3 +2,43 @@ main,
 footer {
   display: flex;
 }
+.logo {
+  background-color: #111d51;
+  text-align: center;
+}
+.sidebar {
+  background-color: #ffff00;
+}
+.content {
+  background-color: #00ffff;
+}
+.content > img {
+  width: 100%
+}
+#about + p {
+  background-color: #000000;
+  color: #ffffff;
+}
+#services + p {
+  background-color: #008001;
+  color: #ffffff;
+}
+#services + p + ul > li {
+  list-style: circle;
+}
+#services + p + ul > li:nth-of-type(even) {
+  color: #ff0000;
+}
+#contact ~ ul > li a {
+  color: #ff0000;
+}
+footer div:nth-child(1) {
+  background-color: #FFBFCB;
+}
+footer div:nth-child(2) {
+  background-color: #A5292A;
+  color: white;
+}
+footer div:last-child {
+  background-color: #808080;
+}
